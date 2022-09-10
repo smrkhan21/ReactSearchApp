@@ -11,7 +11,7 @@ const App = () => {
     setListItems(
       searchTerm !== ""
         ? List.filter((item) =>
-            item.name.toLowerCase().includes(searchTerm.toLocaleLowerCase())
+            item.name.toLowerCase().includes(searchTerm.toLowerCase())
           )
         : List
     );
