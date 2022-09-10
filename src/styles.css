@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+table {
+  margin: 0 auto;
+  width: 50%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: justify;
+  padding: 5px;
+  font-size: 18px;
+}
+.searchInput label {
+  font-weight: 600;
+}
+.searchInput span {
+  margin-left: 10px;
+}
+
+.searchInput input {
+  padding: 5px;
+}
